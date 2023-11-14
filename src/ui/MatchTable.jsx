@@ -5,7 +5,7 @@ import MatchRow from "./MatchRow";
 function MatchTable({ setShowModal }) {
   return (
     <div>
-      <div className="flex items-center gap-x-4 rounded-[5px_5px_0px_0px]  bg-secondaryColor px-4 py-2">
+      <div className="flex items-center gap-x-4 rounded-[5px_5px_0px_0px] px-4 py-2">
         <img src={glove} alt="" />
         <h2 className="text-sm font-bold text-white">
           World Boxing Organisation
