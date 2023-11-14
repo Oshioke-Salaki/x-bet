@@ -12,7 +12,7 @@ function MatchRow({ setShowModal }) {
     dispatch({ type: "newBet", payload: { bet: "" } });
   }
   return (
-    <div className="grid grid-cols-[630px_auto] gap-x-[2px] bg-ash30">
+    <div className="grid grid-cols-[630px_auto] gap-x-[2px] bg-[#d9d9d9]">
       <div className="flex items-center gap-x-[13px] bg-ash30 px-[17px] py-[17px]">
         <div className="flex flex-col gap-y-[3px]">
           <h6 className="text-[11px] font-bold text-black">1001</h6>
