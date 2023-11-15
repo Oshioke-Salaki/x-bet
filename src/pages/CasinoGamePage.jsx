@@ -20,7 +20,7 @@ function CasinoGamePage() {
         </div>
         <div className="bg-[#181818] px-4 py-3">
           <div className="mb-6 flex items-center justify-between bg-primaryColor p-2 text-white">
-            <button>Number Draws</button>
+            <button className="px-[21px] py-3">Number Draws</button>
             <button>Rules</button>
           </div>
           <div className="flex flex-col gap-y-[30px] text-sm font-bold text-white">
