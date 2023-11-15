@@ -23,7 +23,7 @@ function CasinoGamePage() {
             <button>Number Draws</button>
             <button>Rules</button>
           </div>
-          <div className="flex flex-col gap-y-[30px] text-sm font-bold">
+          <div className="flex flex-col gap-y-[30px] text-sm font-bold text-white">
             <div className="flex items-center justify-between">
               <h2>Current Pool</h2>
               <div className="relative">
@@ -32,7 +32,7 @@ function CasinoGamePage() {
                   defaultValue={10}
                   max={10000}
                   min={10}
-                  className="h-12 w-[100px] rounded-sm border-[1px] border-solid border-[#c4c4c4] py-[15px] pl-4 pr-6 outline-none"
+                  className="h-12 w-[100px] rounded-sm border-[1px] border-solid border-[#c4c4c4] bg-white py-[15px] pl-4 pr-6 outline-none"
                   disabled={true}
                 />
                 <img
