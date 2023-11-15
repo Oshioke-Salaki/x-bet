@@ -33,16 +33,14 @@ function CasinoGamePage() {
               <div className="relative">
                 <input
                   type="number"
-                  defaultValue={10}
-                  max={10000}
-                  min={10}
+                  defaultValue={104580}
                   className="h-[52px] w-[163px] rounded-[5px] border-[1px] border-solid border-[#c4c4c4] bg-white py-[15px] pl-4 pr-6 text-base font-bold text-[#333] outline-none"
                   disabled={true}
                 />
                 <img
                   src={usdt}
                   alt=""
-                  className="absolute right-2 top-[16px] z-[300]"
+                  className="absolute right-[18.5px] top-[16px] z-[300]"
                 />
               </div>
             </div>
