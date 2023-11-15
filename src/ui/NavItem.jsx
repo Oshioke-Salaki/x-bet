@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 function NavItem({ children, to }) {
   return (
     <li className="text-base font-semibold text-white">
-      <NavLink to={to}>{children}</NavLink>
+      <NavLink to={to} className="px-5 py-[6px]">
+        {children}
+      </NavLink>
     </li>
   );
 }
