@@ -19,26 +19,45 @@ function CasinoGamePage() {
           )}
         </div>
         <div className="bg-[#181818] px-4 py-3">
-          <div className="mb-6 bg-primaryColor p-2">
+          <div className="mb-6 bg-primaryColor p-2 text-white">
             <button>Number Draws</button>
             <button>Rules</button>
           </div>
-          <div>
-            <h2>Current Pool</h2>
-            <div className="relative">
-              <input
-                type="number"
-                defaultValue={10}
-                max={10000}
-                min={10}
-                className="h-12 w-[100px] rounded-sm border-[1px] border-solid border-[#c4c4c4] py-[15px] pl-4 pr-6 outline-none"
-                disabled={true}
-              />
-              <img
-                src={usdt}
-                alt=""
-                className="absolute right-2 top-[16px] z-[300]"
-              />
+          <div className="flex flex-col gap-y-[30px] text-sm font-bold">
+            <div className="flex items-center justify-between">
+              <h2>Current Pool</h2>
+              <div className="relative">
+                <input
+                  type="number"
+                  defaultValue={10}
+                  max={10000}
+                  min={10}
+                  className="h-12 w-[100px] rounded-sm border-[1px] border-solid border-[#c4c4c4] py-[15px] pl-4 pr-6 outline-none"
+                  disabled={true}
+                />
+                <img
+                  src={usdt}
+                  alt=""
+                  className="absolute right-2 top-[16px] z-[300]"
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <h2>Total Stake</h2>
+              <div className="relative">
+                <input
+                  type="number"
+                  defaultValue={10}
+                  max={10000}
+                  min={10}
+                  className="h-12 w-[100px] rounded-sm border-[1px] border-solid border-[#c4c4c4] py-[15px] pl-4 pr-6 outline-none"
+                />
+                <img
+                  src={usdt}
+                  alt=""
+                  className="absolute right-2 top-[16px] z-[300]"
+                />
+              </div>
             </div>
           </div>
         </div>
