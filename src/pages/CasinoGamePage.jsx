@@ -17,6 +17,7 @@ function CasinoGamePage() {
             ),
           )}
         </div>
+        <div className="bg-red"></div>
       </div>
       <div className="flex w-full flex-col gap-y-[22px]">
         <MyBets />
