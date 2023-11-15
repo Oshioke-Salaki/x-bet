@@ -62,6 +62,14 @@ function CasinoGamePage() {
               </div>
             </div>
           </div>
+          <div className="flex flex-col gap-y-4 px-[46px]">
+            <button className="rounded-[5px] border-[1px] border-solid border-primaryColor bg-white p-[10px] text-center text-base font-bold text-primaryColor">
+              Auto Select
+            </button>
+            <button className="rounded-[5px] border-[1px] border-solid border-primaryColor bg-white p-[10px] text-center text-base font-bold text-primaryColor">
+              Clear Table
+            </button>
+          </div>
         </div>
       </div>
       <div className="flex w-full flex-col gap-y-[22px]">
