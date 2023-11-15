@@ -5,7 +5,7 @@ function NavLinks() {
     <ul className="flex items-center gap-x-[150px]">
       <NavItem to="sports">Sports</NavItem>
       <NavItem to="casino">Casinos</NavItem>
-      <NavItem to="sports">Poker</NavItem>
+      <NavItem to="sportss">Poker</NavItem>
     </ul>
   );
 }
