@@ -7,7 +7,7 @@ function CasinoGameCard() {
       <div>
         <h1 className="text-base font-bold">Daily Raffle</h1>
         <p className="text-xs font-bold">Share in the active daily pool</p>
-        <button className="w-full bg-primaryColor p-[10px] text-xs font-bold text-white">
+        <button className="w-full bg-primaryColor p-[10px] text-sm font-bold text-white">
           Play Now
         </button>
       </div>
