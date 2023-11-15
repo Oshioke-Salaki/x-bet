@@ -5,7 +5,7 @@ function CasinoGamePage() {
   return (
     <div className="grid grid-cols-[990px_auto] gap-x-6">
       <div className="grid w-full grid-cols-[653px_auto] rounded-[5px] bg-white p-6 ">
-        <div className="grid grid-cols-[9] gap-x-2 gap-y-4 bg-ash30 p-6">
+        <div className="grid grid-cols-9 gap-x-2 gap-y-4 bg-ash30 p-6">
           {Array.from({ length: 100 }, (_, index) => index + 1).map(
             (curr, i) => (
               <div
