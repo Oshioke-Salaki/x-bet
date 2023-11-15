@@ -69,6 +69,9 @@ function CasinoGamePage() {
             <button className="rounded-[5px] border-[1px] border-solid border-primaryColor bg-white p-[10px] text-center text-base font-bold text-primaryColor">
               Clear Table
             </button>
+            <button className="rounded-[5px] border-[1px] border-solid border-primaryColor bg-primaryColor p-[10px] text-center text-base font-bold text-white">
+              Place Bet
+            </button>
           </div>
         </div>
       </div>
