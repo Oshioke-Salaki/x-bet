@@ -20,10 +20,10 @@ function CasinoGamePage() {
         </div>
         <div className="bg-[#181818] px-4 py-3">
           <div className="mb-6 flex items-center justify-between bg-primaryColor p-2 text-white">
-            <button className="px-[21px] py-3 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#333]">
+            <button className="rounded-full px-[21px] py-3 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#333]">
               Number Draws
             </button>
-            <button className="px-[21px] py-3 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#333]">
+            <button className="rounded-full px-[21px] py-3 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#333]">
               Rules
             </button>
           </div>
