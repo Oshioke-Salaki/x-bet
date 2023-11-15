@@ -32,7 +32,7 @@ function CasinoGamePage() {
                   defaultValue={10}
                   max={10000}
                   min={10}
-                  className="h-[52px] w-[163px] rounded-sm border-[1px] border-solid border-[#c4c4c4] bg-white py-[15px] pl-4 pr-6 text-base font-bold text-[#333] outline-none"
+                  className="h-[52px] w-[163px] rounded-[5px] border-[1px] border-solid border-[#c4c4c4] bg-white py-[15px] pl-4 pr-6 text-base font-bold text-[#333] outline-none"
                   disabled={true}
                 />
                 <img
@@ -50,7 +50,7 @@ function CasinoGamePage() {
                   defaultValue={10}
                   max={10000}
                   min={10}
-                  className="h-[52px] w-[163px] rounded-sm border-[1px] border-solid border-[#c4c4c4]  py-[15px] pl-4 pr-6 text-base font-bold text-[#333] outline-none"
+                  className="h-[52px] w-[163px] rounded-[5px] border-[1px] border-solid border-[#c4c4c4]  py-[15px] pl-4 pr-6 text-base font-bold text-[#333] outline-none"
                 />
                 <img
                   src={usdt}
