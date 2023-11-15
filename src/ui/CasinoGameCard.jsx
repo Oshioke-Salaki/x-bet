@@ -11,7 +11,7 @@ function CasinoGameCard() {
         <p className="text-xs font-bold">Share in the active daily pool</p>
         <button
           className="mt-[55px] w-full rounded-[5px] bg-primaryColor p-[10px] text-sm font-bold text-white"
-          onClick={() => navigate("12")}
+          onClick={() => navigate("/app/casino/12")}
         >
           Play Now
         </button>
