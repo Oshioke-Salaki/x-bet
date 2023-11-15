@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import bingo from "../assets/bingo.png";
 
 function CasinoGameCard() {
@@ -7,9 +8,12 @@ function CasinoGameCard() {
       <div>
         <h1 className="text-base font-bold">Daily Raffle</h1>
         <p className="text-xs font-bold">Share in the active daily pool</p>
-        <button className="mt-[55px] w-full rounded-[5px] bg-primaryColor p-[10px] text-sm font-bold text-white">
+        <NavLink
+          to="casino/12"
+          className="mt-[55px] w-full rounded-[5px] bg-primaryColor p-[10px] text-sm font-bold text-white"
+        >
           Play Now
-        </button>
+        </NavLink>
       </div>
     </div>
   );
