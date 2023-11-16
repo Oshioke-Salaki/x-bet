@@ -1,5 +1,6 @@
 import Navbar from "../ui/Navbar";
 import sports from "../assets/sports.png";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 function LandingPage() {
   return (
@@ -20,9 +21,10 @@ function LandingPage() {
             Stake, Win, and Dominate the Future of Athletic Investments
           </h2>
         </div>
-        <button className="cursor-pointer rounded-[5px] bg-primaryColor px-[58px] py-4 text-base font-bold">
+        <ConnectButton/>
+        {/* <button className="cursor-pointer rounded-[5px] bg-primaryColor px-[58px] py-4 text-base font-bold">
           Connect wallet
-        </button>
+        </button> */}
         <img src={sports} alt="" className="mt-[-150px] h-[437px] w-[1240px]" />
       </div>
     </div>
